@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_result"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list_numbered_black_24dp"
+        android:title="@string/result"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_incomes"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list_numbered_black_24dp"
+        android:title="@string/incomes"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_expenses"
+        android:enabled="true"
+        android:icon="@drawable/ic_format_list_numbered_black_24dp"
+        android:title="@string/expenses"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+</menu>

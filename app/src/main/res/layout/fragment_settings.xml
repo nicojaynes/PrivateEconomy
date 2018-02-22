@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/currencySpinner"
+        android:entries="@array/currency"
+        android:backgroundTint="@color/colorPrimaryLight"
+        android:layout_margin="8dp"
+        android:layout_below="@id/incomeCalendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/apply_settings_btn"
+        android:text="@string/apply_settings"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/currencySpinner"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:theme="@style/ButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
